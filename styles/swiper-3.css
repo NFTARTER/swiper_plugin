@@ -1,0 +1,71 @@
+#wrap {min-width: 1200px;}
+#wrap header {
+    position: sticky; top: -50px; z-index:999; left: 0;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+#wrap header,
+#wrap footer {width: 100%; line-height: 100px; 
+    background: linear-gradient(90deg, #eee, #fff #eee);
+    text-align: center; font-size: 0.95rem;
+    color: #555;
+}
+#wrap main {}
+#wrap main #hero_wrap {}
+#wrap main #hero_wrap .ssf_hero {height: 90vh;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper {}
+#wrap main #hero_wrap .ssf_hero .prev,
+#wrap main #hero_wrap .ssf_hero .next {
+    background-image: url(../images/arrow.png); background-size: contain; /* cover는 짤릴 수 있음 */
+}
+#wrap main #hero_wrap .ssf_hero .prev {transform: scaleX(-1);}
+#wrap main #hero_wrap .ssf_hero .prev svg,
+#wrap main #hero_wrap .ssf_hero .next svg {color: #fff; display: none; }
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide {background-position: center; background-size: cover;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a {display: flex; justify-content: center; flex-flow: column nowrap; height: 100%; background: rgba(0, 0, 0, 0.5); text-align: center;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a * {line-height: 1.5; color: #fff;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a p {}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1 {margin: 0 10px; font-size: 1.4rem; font-weight: 700;}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .swiper-slide a h1+p {}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide1 {background-image: url(https://sitem.ssgcdn.com/88/15/13/item/1000772131588_i1_1200.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide2 {background-image: url(https://sitem.ssgcdn.com/88/15/13/item/1000772131588_i2_1200.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide3 {background-image: url(https://sitem.ssgcdn.com/88/15/13/item/1000772131588_i3_1200.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide4 {background-image: url(https://sitem.ssgcdn.com/88/15/13/item/1000772131588_i4_1200.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide5 {background-image: url(https://sitem.ssgcdn.com/88/15/13/item/1000772131588_i5_1200.jpg);}
+#wrap main #hero_wrap .ssf_hero .swiper-wrapper .slide6 {background-image: url(https://sitem.ssgcdn.com/46/58/13/item/1000592135846_i1_1200.jpg);}
+/* --------------------------------------- 주목할 브랜드 스와이퍼 디자인 */
+#wrap main #brand_wrap {padding: 40px 0;}
+#wrap main #brand_wrap > h1 {text-align: center; margin: 0 0 30px;}
+#wrap main #brand_wrap .brand_container {display: flex; margin: 0 auto; gap: 15px; width: 1200px;}
+#wrap main #brand_wrap .brand_container * {width: 50%;}
+#wrap main #brand_wrap .brand_container .left_img {
+    background-image: url(../images/bnr3.jpg); 
+    background-position: center; 
+    background-size: cover; 
+    height: 200px;
+    display: flex; 
+    flex-flow: column nowrap; 
+    justify-content: center; 
+    align-items: center;
+    text-align: center;
+}
+#wrap main #brand_wrap .brand_container .left_img a {
+    background: rgba(0,0,0,0.2); 
+    display: flex; flex-flow: column nowrap; justify-content: center; align-items: center; width: 100%; height: 100%;
+}
+#wrap main #brand_wrap .brand_container .left_img a * {color: #fff; line-height: 1.5;}
+#wrap main #brand_wrap .brand_container .left_img a p:nth-child(1) {}
+#wrap main #brand_wrap .brand_container .left_img a p:nth-child(2) {}
+#wrap main #brand_wrap .brand_container .left_img a h2 {margin: 10px 0; font-size: 1.2rem; font-weight: 700;}
+#wrap main #brand_wrap .brand_container .left_img a h2+p {}
+#wrap main #brand_wrap .brand_container .right {display: flex; align-items: center; position: relative;}
+#wrap main #brand_wrap .brand_container .right .shop_list {width: 95%;}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper {}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper .swiper-slider {}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper .swiper-slider .photo_like {position: relative;}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper .swiper-slider .photo_like a {}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper .swiper-slider .photo_like a img {width: 100%;}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper .swiper-slider .photo_like .like  {display: block; width: 16px; position: absolute; right: ;}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper .swiper-slider .photo_like .like img {}
+#wrap main #brand_wrap .brand_container .right .shop_list .swiper-wrapper .swiper-slider .slide1 {}
+
+

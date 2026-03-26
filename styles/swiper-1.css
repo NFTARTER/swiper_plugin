@@ -1,0 +1,64 @@
+header {
+    height: 60px; background: rgba(255, 255, 255, 0.6);
+    position: fixed; width: 100%; left: 0; top: 0; z-index:100;
+}
+header nav {
+    float: right; padding-right: 60px;
+}
+header nav a {display: inline-block; line-height: 60px; margin-left: 20px;}
+#wrap {
+    height:100vh;
+    min-width: 1800px;
+    position: relative;
+}
+#wrap .swiper-wrapper {}
+#wrap .swiper-wrapper .swiper-slide {}
+#wrap .swiper-wrapper .swiper-slide h1 {text-align: center; font-size: 2rem;}
+#wrap .swiper-wrapper .intro {
+    background-color: aqua;
+}
+#top {
+    position: fixed; width: 50px; height: 50px; right: 50px; bottom: 50px;
+    z-index: 999; font-size: 0.85rem;
+    text-align: center; line-height: 50px; font-weight: 600;
+    border-radius: 50%; background: #222; color: #fff;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+#wrap .swiper-wrapper .profile {
+    background: linear-gradient(#aaa, #eee);
+}
+#wrap .swiper-wrapper .project1 {
+    background-color: peru;
+}
+#wrap .swiper-wrapper .project1 h1 {}
+#wrap .swiper-wrapper .project2 {background-color: blue;}
+/* --------------------- 포트폴리오 구성 */
+.web {width: 600px; height: 400px; margin: 30px auto 0; } 
+.web .swiper-wrapper {}
+.web .swiper-wrapper .slide1 {background-color: aliceblue;}
+.web .swiper-wrapper .slide2 {background-color: rgb(255, 230, 0);}
+.web .swiper-wrapper .slide3 {background-color: rgb(4, 88, 145);}
+.web .swiper-wrapper .slide4 {background-color: rgb(255, 140, 0);}
+.web .swiper-wrapper .slide5 {background-color: rgb(55, 0, 255);}
+.web .swiper-wrapper .slide6 {background-color: rgb(122, 0, 126);}
+#wrap .swiper-wrapper .project1 .web + .web_page {
+    /* background-color: rgb(252, 158, 255); 
+    transform: scale(1.5); */
+    /* absolute (기본 내장) */
+    left: -40px; bottom: 20px; text-align: left; 
+}
+#wrap .swiper-wrapper .project1 .web + .web_page span {/* background-color: red; */ }
+#wrap .swiper-wrapper .project1 .web + .web_page .swiper-pagination-current {color: blue;}
+#wrap .swiper-wrapper .project1 .web + .web_page .swiper-pagination-total {color: red;}
+#wrap .swiper-wrapper .project1 .group {position: relative; width: max-content; margin: 0 auto;}
+#wrap .swiper-wrapper .project1 .group .web {}
+/* ------------------- 프로젝트 */
+#wrap .swippe.project2 {}
+#wrap .project2 .group {position: relative; width: max-content; margin: 0 auto;}
+#wrap .project2 .group .page {top: -20px; bottom: auto;}
+#wrap .project2 .group .graphic {width: 600px; height: 400px; margin: 30px auto 0;}
+#wrap .project2 .group .graphic .swiper-wrapper {}
+#wrap .project2 .group .graphic .swiper-wrapper .page1 {background-color: #aaa;}
+#wrap .project2 .group .graphic .swiper-wrapper .page2 {background-color: #f80000;}
+#wrap .project2 .group .graphic .swiper-wrapper .page3 {background-color: #00ffd5;}
+#wrap .project2 .group .graphic .swiper-wrapper .page4 {background-color: #ff6f6f;}
